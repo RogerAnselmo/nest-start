@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: pr0dut05-4p1
+      MYSQL_DATABASE: nest_estudo
+    ports: 
+      - "3306:3306"
